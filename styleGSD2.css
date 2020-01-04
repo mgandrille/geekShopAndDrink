@@ -3,7 +3,6 @@ body
   font-family: Arial, "Times New Roman", sans-serif;
   font-size: 1em;
   text-align: center;
-  background: url("ligne_carres.jpg") repeat center;
   margin: 0;
 }
 
@@ -51,6 +50,40 @@ section
   flex-direction: column;
   background: white;
   margin-bottom: 20px;
+}
+
+
+.welcome
+{
+  background: #148C33;
+}
+
+.discover
+{
+  background: #DF0B19;
+  color: white;
+}
+
+.geek
+{
+  background: #EF9115;
+}
+
+.shop
+{
+  background: #6A3D8E;
+  color: white;
+}
+
+.drink
+{
+  background: #4AB6DD;
+}
+
+.contact
+{
+  background: #6F6B6C;
+  color: white;
 }
 
 h2 {
