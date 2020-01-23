@@ -56,12 +56,12 @@ section
   background: #4AB6DD;
 }
 
-.geek
+.drink
 {
   background: #EF9115;
 }
 
-.drink
+.contact
 {
   background: #6F6B6C;
 }
@@ -95,8 +95,8 @@ td, th {
 .photo
 {
   margin: auto;
-  width: 100px;
-  height: 100px;
+  width: 50%;
+  height: 50%;
 }
 
 fieldset {
