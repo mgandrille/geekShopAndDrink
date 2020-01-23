@@ -51,6 +51,11 @@ section
   margin-bottom: 20px;
 }
 
+p 
+{
+  margin: 30px;
+}
+
 .welcome
 {
   background: #4AB6DD;
@@ -71,12 +76,14 @@ h2 {
   font-weight: bold;
   text-align: center;
   font-size: 2.5em;
+  margin: 30px;
 }
 
 h3 {
   font-family: 'AR Destine', Stencil, Impact, 'Arial Black', sans-serif;
   font-weight: lighter;
   font-size: 1.5em;
+  margin: 30px;
 }
 
 
