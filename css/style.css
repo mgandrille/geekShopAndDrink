@@ -1,0 +1,196 @@
+body
+{
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+}
+
+.image
+{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Comic sans MS', Arial, "Times New Roman", sans-serif;
+    font-size: 0.8em;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 0.8em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+section 
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+p 
+{
+  margin: 30px;
+}
+
+.blue
+{
+  background-color: #4AB6DD;
+}
+
+.orange
+{
+  background-color: #EF9115;
+}
+
+.grey
+{
+  background-color: #6F6B6C;
+}
+
+h1, h2 {
+  font-family: 'AR Destine', Stencil, Impact, 'Arial Black', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 30px;
+}
+
+h3 {
+  font-family: 'AR Destine', Stencil, Impact, 'Arial Black', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 30px;
+}
+
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+td, th {
+  width: 33%;
+}
+
+.photo
+{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+fieldset {
+  text-align: left;
+  width: 90%;
+  font-size: 0.8em;
+  border: none;
+}
+
+label {
+  text-align: left;
+  display: block;
+  width: 33%;
+  float: left;
+  margin: 3px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo
+{
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* for screen upper than 1024px */
+
+@media all and (min-width: 1024px)
+{
+    body
+    {
+      font-size: 1.4em;
+    }
+
+    nav
+    {
+      width: auto;
+      font-size: 1.1em;
+      text-align: right;
+    }
+    
+    nav li
+    {
+      padding-left: 15px;
+    }
+    
+    nav a
+    {
+      font-size: 1em;
+    }
+    
+    nav a:hover
+    {
+      border-bottom: 3px solid cyan;
+    }
+
+    fieldset
+    {
+      width: 45%;
+    }
+
+    label
+    {
+      width: 50%;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      font-size: 0.6em;
+    }
+
+}

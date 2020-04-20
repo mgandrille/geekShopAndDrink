@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'ar_destineregular';
+    src: url('../fonts/ar-destine-font-webfont.eot');
+    src: url('../fonts/ar-destine-font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ar-destine-font-webfont.woff2') format('woff2'),
+         url('../fonts/ar-destine-font-webfont.woff') format('woff'),
+         url('../fonts/ar-destine-font-webfont.ttf') format('truetype'),
+         url('../fonts/ar-destine-font-webfont.svg#ar_destineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+    height: 40vh;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, "Times New Roman", sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+.parent {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+
+/*  ****** HEADER ****** */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+}
+
+ul {
+    float: right;
+    text-decoration: none;
+    color: #6F6B6C;
+    margin: 0 auto;
+}
+
+li {
+    display : block;
+    float: left;
+    margin: 8px;
+}
+
+.imageDesktop {
+    display: none;
+}
+
+.imageMobile {
+    height: 30vh;
+}
+
+/*  ****** MAIN ****** */
+h1, h2, h3 {
+    font-family: 'ar_destineregular', Stencil, Impact, 'Arial Black', sans-serif;
+}
+
+h1 {
+    color: #DF0B19;
+    font-size: 2.5em;
+
+}
+
+h2, h3 {
+    font-size: 1.5em;
+}
+
+.title p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+.blue {
+  background-color: #4AB6DD;
+}
+
+.orange {
+  background-color: #EF9115;
+}
+
+.grey {
+  background-color: #6F6B6C;
+}
+
+.coord {
+    display: flex;
+    justify-content: center;
+    padding-right: 8%;
+}
+
+fieldset {
+    margin: auto;
+    text-align: left;
+    font-size: 0.8em;
+    border: none;
+}
+
+fieldset div {
+    padding: 5px;
+}
+  
+label {
+    text-align: center;
+    display: block;
+    width: 40%;
+    float: left;
+    margin: 3px;
+}
+
+input {
+    width: 55%;
+}
+
+fieldset div:last-of-type {
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 1em;
+}
+  
+
+/*  ****** FOOTER ****** */
+footer {
+    background: black;
+    color: white;
+    padding: 20px 10px;
+    font-size: x-small;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0%;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+.footer-credits {
+    text-align: left;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #e95950;
+    color: white;
+}
+
+/*  ****** MEDIA QUERY ****** */
+@media (min-width: 1000px) {
+
+    main img {
+        width: 50%;
+        height: 50%;
+    }
+
+    /* A REVOIR POUR DECALAGE IMAGES
+     img.gauche {
+        float: left;
+    }
+
+    img.droite {
+        float: right;
+    } */
+
+    .imageDesktop {
+        display: block;
+    }
+
+    .imageMobile {
+        display: none;
+    }
+
+    fieldset {
+        width: 80%;
+        text-align: center;
+    }
+
+    label {
+        width: 30%;
+    }
+
+    input, textarea {
+        width: 65%;
+    }
+    
+
+    button {
+        float: right;
+    }
+
+    footer {
+        font-size: 0.8em;;
+    }
+
+    .logo {
+        width: 12%;
+        height: 12%;
+    }
+    
+
+}
